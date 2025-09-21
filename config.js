@@ -5,11 +5,11 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "XTREME~XMD~CsYFwBYT#sPRBn842fn3DYXcyf5HmS2_8FVc1XCOzafsL83u6DE4",
+SESSION_ID: process.env.SESSION_ID || "XTREME~XMD~axhDmIiI#F0Ig2K_PKoCHiULGb2wkVclLkcp8qQ12dK9UzZ4oKeY",
 // add your Session Id 
 AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "false",
 // make true or false status auto seen
-AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false",
+AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "true",
 // make true if you want auto reply on status 
 AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",
 //anticall on/off
@@ -31,16 +31,16 @@ MENTION_REPLY: process.env.MENTION_REPLY || "false",
 // make true if want auto voice reply if someone menetion you 
 MENU_IMAGE_URL: process.env.MENU_IMAGE_URL || "https://files.catbox.moe/mry39g.jpg",
 // add custom menu and mention reply image url
-PREFIX: process.env.PREFIX || "+",
+PREFIX: process.env.PREFIX || "☆",
     
     AUTO_BIO: process.env.AUTO_BIO || "false",// Replace with your authorized numbers
     
     // Timezone for the auto-bio feature
     TIME_ZONE: process.env.TIME_ZONE || "Asia/Kolkata",  // Change to your preferred timezone
 // add your prifix for bot   
-BOT_NAME: process.env.BOT_NAME || "𝐗𝐓𝐑𝐄𝐌𝐄 𝐗𝐌𝐃",
+BOT_NAME: process.env.BOT_NAME || "ANONYMOUS",
 // add bot namw here for menu
-STICKER_NAME: process.env.STICKER_NAME || "•᭄͢❈🏴‍☠️𝐏𝐑𝐎𝐅𝐄𝐒𝐒𝐎𝐑 𝐗-𝐓𝐑𝐄𝐌𝐄🇦🇱᪣᭄",
+STICKER_NAME: process.env.STICKER_NAME || "ANONYMOUS ",
 // type sticker pack name 
 CUSTOM_REACT: process.env.CUSTOM_REACT || "false",
 // make this true for custum emoji react    
@@ -48,10 +48,9 @@ CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️�
 // chose custom react emojis by yourself 
 DELETE_LINKS: process.env.DELETE_LINKS || "true",
 // automatic delete links witho remove member 
-OWNER_NUMBER: process.env.OWNER_NUMBER || "528145550855",
+OWNER_NUMBER: process.env.OWNER_NUMBER || "50947646367",
 // add your bot owner number
-OWNER_NAME: process.env.OWNER_NAME || "ᴘʀɪɴᴄᴇ",
-// add bot owner name
+OWNER_NAME: process.env.OWNER_NAME || "ANONYMOUS// add bot owner name
 DESCRIPTION: process.env.DESCRIPTION || "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴘʀɪɴᴄᴇ xᴛʀᴇᴍᴇ*",
 // add bot owner name    
 ALIVE_IMG: process.env.ALIVE_IMG || "https://files.catbox.moe/e6orj5.jpg",
